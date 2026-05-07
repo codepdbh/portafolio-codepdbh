@@ -1,0 +1,290 @@
+import type { Project } from '../types/project';
+
+export const projects: Project[] = [
+  {
+    name: 'SafeShare AI',
+    slug: 'safeshare-ai',
+    description:
+      'Sistema local de archivos compartidos con detección inteligente de información sensible, auditoría de accesos, cifrado y control de enlaces seguros.',
+    image: 'safeshare-ai',
+    repoUrl: 'https://github.com/codepdbh/safeshare-ai',
+    technologies: ['Python', 'AI', 'Security', 'Encryption'],
+    category: ['IA', 'Seguridad'],
+    language: 'Python',
+    featured: true,
+  },
+  {
+    name: 'CaTyping',
+    slug: 'catyping',
+    description:
+      'Herramienta interactiva orientada a escritura, práctica de tipeo y experiencia educativa con enfoque visual y funcional.',
+    image: 'catyping',
+    repoUrl: 'https://github.com/codepdbh/catyping',
+    technologies: ['JavaScript', 'HTML', 'CSS'],
+    category: ['Web', 'Educación'],
+    language: 'JavaScript',
+    featured: true,
+  },
+  {
+    name: 'SonarLink',
+    slug: 'sonarlink',
+    description:
+      'Proyecto web orientado a conexión, visualización o interacción digital con una interfaz ligera, directa y adaptable.',
+    image: 'sonarlink',
+    repoUrl: 'https://github.com/codepdbh/SonarLink',
+    technologies: ['JavaScript', 'HTML', 'CSS', 'Web'],
+    category: ['Web'],
+    language: 'JavaScript',
+    featured: true,
+  },
+  {
+    name: 'Karaoke AI',
+    slug: 'karaoke-ai',
+    description:
+      'Sistema experimental basado en inteligencia artificial para procesamiento de audio, karaoke y asistencia creativa.',
+    image: 'karaoke-ai',
+    repoUrl: 'https://github.com/codepdbh/karaoke-ai',
+    technologies: ['Python', 'AI', 'Audio Processing'],
+    category: ['IA'],
+    language: 'Python',
+    featured: true,
+  },
+  {
+    name: 'Ruta Sin Gluten',
+    slug: 'ruta-sin-gluten',
+    description:
+      'Aplicación orientada a información, rutas o experiencias relacionadas con alimentación sin gluten, combinando tecnología y utilidad social.',
+    image: 'ruta-sin-gluten',
+    repoUrl: 'https://github.com/codepdbh/ruta-sin-gluten',
+    technologies: ['JavaScript', 'Web', 'Maps'],
+    category: ['Web'],
+    language: 'JavaScript',
+    featured: true,
+  },
+  {
+    name: 'CRUD Flutter + NestJS',
+    slug: 'crud-flutter-nest',
+    description:
+      'Proyecto full stack con enfoque CRUD, integrando Flutter y arquitectura backend moderna para gestión de datos.',
+    image: 'crud-flutter-nest',
+    repoUrl: 'https://github.com/codepdbh/crud-flutter-nest',
+    technologies: ['Flutter', 'Dart', 'NestJS', 'TypeScript'],
+    category: ['Flutter', 'Backend'],
+    language: 'Dart',
+    featured: true,
+  },
+  {
+    name: 'Sucursales Multiplataforma',
+    slug: 'sucursales-multiplataforma',
+    description:
+      'Sistema multiplataforma para gestión de sucursales, diseñado con tecnologías modernas y estructura escalable.',
+    image: 'sucursales-multiplataforma',
+    repoUrl: 'https://github.com/codepdbh/sucursales-multiplataforma',
+    technologies: ['Flutter', 'Dart', 'Multiplataforma'],
+    category: ['Flutter'],
+    language: 'Dart',
+    featured: true,
+  },
+  {
+    name: 'Editor Stickers WhatsApp',
+    slug: 'editor-stickersconanimacion-whatsapp',
+    description:
+      'Herramienta para creación o edición de stickers animados orientados a WhatsApp, con enfoque práctico y visual.',
+    image: 'editor-stickersconanimacion-whatsapp',
+    repoUrl: 'https://github.com/codepdbh/editor-stickersconanimacion-whatsapp',
+    technologies: ['JavaScript', 'Canvas', 'Animation'],
+    category: ['Web', 'Herramientas'],
+    language: 'JavaScript',
+    featured: true,
+  },
+  {
+    name: 'Qwen3 TTS Interface',
+    slug: 'qwen3-tts-interface',
+    description:
+      'Interfaz experimental para generación o gestión de texto a voz utilizando modelos de inteligencia artificial.',
+    image: 'qwen3-tts-interface',
+    repoUrl: 'https://github.com/codepdbh/Qwen3-TTS-Interface',
+    technologies: ['Python', 'AI', 'TTS', 'NLP'],
+    category: ['IA'],
+    language: 'Python',
+  },
+  {
+    name: 'NeonSnake 3D',
+    slug: 'neonsnake3d',
+    description:
+      'Juego estilo Snake con estética neón y experiencia visual 3D, desarrollado como experimento interactivo en JavaScript.',
+    image: 'neonsnake3d',
+    repoUrl: 'https://github.com/codepdbh/NeonSnake3D',
+    technologies: ['JavaScript', '3D', 'Canvas', 'Game'],
+    category: ['Juegos'],
+    language: 'JavaScript',
+  },
+  {
+    name: 'Snake',
+    slug: 'snake',
+    description:
+      'Versión clásica del juego Snake desarrollada con tecnologías web, enfocada en lógica, interacción y simplicidad.',
+    image: 'snake',
+    repoUrl: 'https://github.com/codepdbh/Snake',
+    technologies: ['JavaScript', 'HTML', 'CSS', 'Game'],
+    category: ['Juegos'],
+    language: 'JavaScript',
+  },
+  {
+    name: 'Piano',
+    slug: 'piano',
+    description:
+      'Aplicación interactiva tipo piano digital para explorar sonido, eventos de usuario e interfaces musicales en la web.',
+    image: 'piano',
+    repoUrl: 'https://github.com/codepdbh/Piano',
+    technologies: ['JavaScript', 'Web Audio', 'HTML', 'CSS'],
+    category: ['Web'],
+    language: 'JavaScript',
+  },
+  {
+    name: 'Violin',
+    slug: 'violin',
+    description:
+      'Experimento interactivo relacionado con instrumentos musicales, sonido o representación visual orientada a la web.',
+    image: 'violin',
+    repoUrl: 'https://github.com/codepdbh/Violin',
+    technologies: ['JavaScript', 'Web Audio', 'HTML'],
+    category: ['Web'],
+    language: 'JavaScript',
+  },
+  {
+    name: 'Prueba CECASEM',
+    slug: 'prueba-cecasem',
+    description:
+      'Prueba técnica de backend y frontend para CECASEM, orientada a demostrar capacidades de desarrollo web completo.',
+    image: 'prueba-cecasem',
+    repoUrl: 'https://github.com/codepdbh/prueba_Cecasem',
+    technologies: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
+    category: ['Web', 'Backend'],
+    language: 'PHP',
+  },
+  {
+    name: 'IAymara',
+    slug: 'iaymara',
+    description:
+      'Proyecto relacionado con idioma aymara y tecnología, orientado a educación, cultura o procesamiento lingüístico.',
+    image: 'iaymara',
+    repoUrl: 'https://github.com/codepdbh/iaymara',
+    technologies: ['Python', 'AI', 'NLP', 'Educación'],
+    category: ['IA', 'Educación'],
+    language: 'Python',
+  },
+  {
+    name: 'Arduino Serial Python',
+    slug: 'arduino-serial-python',
+    description:
+      'Proyecto de integración entre Arduino y Python mediante comunicación serial para pruebas, automatización o lectura de datos.',
+    image: 'arduino-serial-python',
+    repoUrl: 'https://github.com/codepdbh/Arduino_Serial_Python',
+    technologies: ['Python', 'Arduino', 'Serial', 'IoT'],
+    category: ['Herramientas'],
+    language: 'Python',
+  },
+  {
+    name: 'Bolillero Flutter',
+    slug: 'bolillero-flutter',
+    description:
+      'Aplicación Flutter tipo bolillero digital, desarrollada como experimento móvil con lógica personalizada.',
+    image: 'bolillero-flutter',
+    repoUrl: 'https://github.com/codepdbh/bolillero_flutter',
+    technologies: ['Flutter', 'Dart', 'Mobile'],
+    category: ['Flutter'],
+    language: 'Dart',
+  },
+  {
+    name: 'Flutter PocketBase Chat',
+    slug: 'flutter-pocketbase-chat',
+    description:
+      'Aplicación de chat en tiempo real con Flutter y PocketBase, orientada a comunicación y sincronización instantánea.',
+    image: 'flutter-pocketbase-chat',
+    repoUrl: 'https://github.com/codepdbh/flutter_pocketbase_chat',
+    technologies: ['Flutter', 'Dart', 'PocketBase', 'Realtime'],
+    category: ['Flutter', 'Backend'],
+    language: 'Dart',
+  },
+  {
+    name: 'Juegos DBP',
+    slug: 'juegosdbp',
+    description:
+      'Colección o entorno web de juegos educativos/interactivos, enfocado en aprendizaje y práctica mediante tecnología.',
+    image: 'juegosdbp',
+    repoUrl: 'https://github.com/codepdbh/juegosdbp',
+    technologies: ['JavaScript', 'HTML', 'CSS', 'Game'],
+    category: ['Juegos', 'Educación'],
+    language: 'JavaScript',
+  },
+  {
+    name: 'FlorFlutter',
+    slug: 'florflutter',
+    description:
+      'Proyecto visual o experimental desarrollado con Flutter/JavaScript, orientado a interfaces creativas.',
+    image: 'florflutter',
+    repoUrl: 'https://github.com/codepdbh/FlorFlutter',
+    technologies: ['Flutter', 'Dart', 'UI'],
+    category: ['Flutter'],
+    language: 'Dart',
+  },
+  {
+    name: 'Magisk On WSA Fix Script',
+    slug: 'magiskonwsalocalfixscript',
+    description:
+      'Script de apoyo para WSA, Magisk y Google Apps, orientado a automatización y ajustes técnicos en Android sobre Windows.',
+    image: 'magiskonwsalocalfixscript',
+    repoUrl: 'https://github.com/codepdbh/MagiskOnWSALocalFixScript',
+    technologies: ['Shell', 'PowerShell', 'Android', 'WSA'],
+    category: ['Herramientas'],
+    language: 'Shell',
+  },
+  {
+    name: 'Mi Primer Proyecto con GH',
+    slug: 'mi-primer-p-con-gh',
+    description:
+      'Primer proyecto web publicado con GitHub, representando los inicios prácticos en desarrollo y despliegue.',
+    image: 'mi-primer-p-con-gh',
+    repoUrl: 'https://github.com/codepdbh/mi-primer-p-con-gh',
+    technologies: ['HTML', 'CSS', 'GitHub Pages'],
+    category: ['Web', 'Educación'],
+    language: 'HTML',
+  },
+  {
+    name: 'codepdbh',
+    slug: 'codepdbh',
+    description:
+      'Repositorio de perfil o configuración personal de GitHub, orientado a presentar identidad profesional y actividad técnica.',
+    image: 'codepdbh',
+    repoUrl: 'https://github.com/codepdbh/codepdbh',
+    technologies: ['Markdown', 'GitHub'],
+    category: ['Herramientas'],
+    language: 'Markdown',
+  },
+  {
+    name: 'TR',
+    slug: 'tr',
+    description:
+      'Repositorio técnico o experimental de propósito específico, incluido como parte del ecosistema de proyectos personales.',
+    image: 'tr',
+    repoUrl: 'https://github.com/codepdbh/tr',
+    technologies: ['JavaScript', 'Web'],
+    category: ['Web'],
+    language: 'JavaScript',
+  },
+];
+
+export const categories = [
+  'Todos',
+  'IA',
+  'Web',
+  'Flutter',
+  'Juegos',
+  'Herramientas',
+  'Seguridad',
+  'Educación',
+  'Backend',
+] as const;
+
+export type Category = (typeof categories)[number];

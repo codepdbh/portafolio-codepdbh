@@ -1,0 +1,225 @@
+@import 'tailwindcss';
+
+/* ============================
+   Custom Theme / Design Tokens
+   ============================ */
+
+@theme {
+  --color-midnight: #0a0e1a;
+  --color-deep: #0f1629;
+  --color-surface: #141b2d;
+  --color-card: #1a2235;
+  --color-card-hover: #1f2a42;
+  --color-border: rgba(99, 179, 237, 0.12);
+  --color-border-hover: rgba(99, 179, 237, 0.28);
+  --color-cyan-glow: #22d3ee;
+  --color-blue-accent: #3b82f6;
+  --color-violet-soft: #8b5cf6;
+  --color-text-primary: #e2e8f0;
+  --color-text-secondary: #94a3b8;
+  --color-text-muted: #64748b;
+
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+/* ============================
+   Base Styles
+   ============================ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  background-color: var(--color-midnight);
+  color: var(--color-text-primary);
+  overflow-x: hidden;
+}
+
+/* ============================
+   Background Grid Pattern
+   ============================ */
+
+.bg-grid-pattern {
+  background-image:
+    linear-gradient(rgba(99, 179, 237, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(99, 179, 237, 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+/* ============================
+   Glassmorphism Card
+   ============================ */
+
+.glass-card {
+  background: rgba(26, 34, 53, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+}
+
+.glass-card:hover {
+  border-color: var(--color-border-hover);
+  background: rgba(31, 42, 66, 0.7);
+}
+
+/* ============================
+   Glow Effects
+   ============================ */
+
+.glow-cyan {
+  box-shadow: 0 0 20px rgba(34, 211, 238, 0.1);
+}
+
+.glow-cyan-hover:hover {
+  box-shadow: 0 0 30px rgba(34, 211, 238, 0.15),
+    0 0 60px rgba(34, 211, 238, 0.05);
+}
+
+.text-glow {
+  text-shadow: 0 0 40px rgba(34, 211, 238, 0.3);
+}
+
+/* ============================
+   Gradient Backgrounds
+   ============================ */
+
+.bg-hero-gradient {
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(59, 130, 246, 0.15), transparent),
+    radial-gradient(ellipse 60% 40% at 80% 0%, rgba(139, 92, 246, 0.1), transparent),
+    radial-gradient(ellipse 50% 30% at 20% 10%, rgba(34, 211, 238, 0.08), transparent);
+}
+
+.bg-section-gradient {
+  background:
+    radial-gradient(ellipse 60% 40% at 50% 0%, rgba(59, 130, 246, 0.06), transparent);
+}
+
+/* ============================
+   Custom Scrollbar
+   ============================ */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-midnight);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-text-muted);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-secondary);
+}
+
+/* ============================
+   Tech Badge
+   ============================ */
+
+.tech-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  background: rgba(34, 211, 238, 0.08);
+  color: var(--color-cyan-glow);
+  border: 1px solid rgba(34, 211, 238, 0.15);
+  transition: all 0.25s ease;
+}
+
+.tech-badge:hover {
+  background: rgba(34, 211, 238, 0.14);
+  border-color: rgba(34, 211, 238, 0.3);
+  transform: translateY(-1px);
+}
+
+/* ============================
+   Selection
+   ============================ */
+
+::selection {
+  background: rgba(34, 211, 238, 0.25);
+  color: #fff;
+}
+
+/* ============================
+   Placeholder Image
+   ============================ */
+
+.project-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, var(--color-surface) 0%, var(--color-card) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.project-placeholder::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(45deg, rgba(34, 211, 238, 0.05) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(59, 130, 246, 0.05) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, rgba(139, 92, 246, 0.05) 75%),
+    linear-gradient(-45deg, transparent 75%, rgba(34, 211, 238, 0.05) 75%);
+  background-size: 20px 20px;
+}
+
+.project-placeholder-icon {
+  position: relative;
+  z-index: 1;
+  color: var(--color-text-muted);
+  opacity: 0.6;
+}
+
+/* ============================
+   Category Badge Colors
+   ============================ */
+
+.cat-ia { --cat-color: rgba(139, 92, 246, 1); --cat-bg: rgba(139, 92, 246, 0.12); --cat-border: rgba(139, 92, 246, 0.25); }
+.cat-web { --cat-color: rgba(59, 130, 246, 1); --cat-bg: rgba(59, 130, 246, 0.12); --cat-border: rgba(59, 130, 246, 0.25); }
+.cat-flutter { --cat-color: rgba(34, 211, 238, 1); --cat-bg: rgba(34, 211, 238, 0.12); --cat-border: rgba(34, 211, 238, 0.25); }
+.cat-juegos { --cat-color: rgba(251, 191, 36, 1); --cat-bg: rgba(251, 191, 36, 0.12); --cat-border: rgba(251, 191, 36, 0.25); }
+.cat-herramientas { --cat-color: rgba(45, 212, 191, 1); --cat-bg: rgba(45, 212, 191, 0.12); --cat-border: rgba(45, 212, 191, 0.25); }
+.cat-seguridad { --cat-color: rgba(239, 68, 68, 1); --cat-bg: rgba(239, 68, 68, 0.12); --cat-border: rgba(239, 68, 68, 0.25); }
+.cat-educacion { --cat-color: rgba(52, 211, 153, 1); --cat-bg: rgba(52, 211, 153, 0.12); --cat-border: rgba(52, 211, 153, 0.25); }
+.cat-backend { --cat-color: rgba(249, 115, 22, 1); --cat-bg: rgba(249, 115, 22, 0.12); --cat-border: rgba(249, 115, 22, 0.25); }
+
+.category-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--cat-color);
+  background: var(--cat-bg);
+  border: 1px solid var(--cat-border);
+}
