@@ -19,7 +19,7 @@ export default function ProjectGrid({
   setSearchQuery,
 }: ProjectGridProps) {
   const featuredProjects = useMemo(
-    () => projects.filter((p) => p.featured),
+    () => projects.filter((p) => p.featured).slice(0, 6),
     []
   );
 
@@ -65,7 +65,7 @@ export default function ProjectGrid({
           </p>
         </motion.div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 mb-24">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-24">
           {featuredProjects.map((project, idx) => (
             <ProjectCard key={project.slug} project={project} index={idx} />
           ))}

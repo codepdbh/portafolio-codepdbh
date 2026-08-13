@@ -40,7 +40,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-lg sm:text-xl text-text-secondary font-medium mb-3 font-mono">
-              Systems Engineer{' '}
+              Ingeniero de Sistemas{' '}
               <span className="text-cyan-glow/60">|</span>{' '}
               Full Stack Developer{' '}
               <span className="text-cyan-glow/60">|</span>{' '}
@@ -48,8 +48,8 @@ export default function Hero() {
             </p>
 
             <p className="text-base text-text-muted leading-relaxed mb-8 max-w-lg">
-              Desarrollo soluciones web, móviles y sistemas inteligentes combinando
-              ingeniería de software, inteligencia artificial y experiencia de usuario.
+              Desarrollo soluciones digitales robustas que generan impacto: plataformas web y móviles,
+              inteligencia artificial aplicada y sistemas GIS para organizaciones y personas.
             </p>
 
             <div className="flex flex-wrap gap-3">
@@ -78,6 +78,7 @@ export default function Hero() {
                 <LinkedinIcon className="w-4 h-4" />
                 LinkedIn
               </a>
+              <a href={`${import.meta.env.BASE_URL}CV_Paulo_Daniel_Batuani_Hurtado_2026.pdf`} download className="inline-flex items-center gap-2 px-6 py-3 border border-cyan-glow/30 text-cyan-glow font-medium text-sm rounded-xl hover:bg-cyan-glow/10 transition-all duration-300">Descargar CV</a>
             </div>
           </motion.div>
 
@@ -131,7 +132,7 @@ export default function Hero() {
                     {'  '}],
                   </Line>
                   <Line num={11}>
-                    {'  '}<Prop>projects</Prop>: <Num>24</Num>,
+                    {'  '}<Prop>projects</Prop>: <Num>39</Num>,
                   </Line>
                   <Line num={12}>
                     {'  '}<Prop>passion</Prop>: <Str>"Building things"</Str>
@@ -150,7 +151,7 @@ export default function Hero() {
                 className="absolute -top-3 -right-3 flex items-center gap-1.5 px-3 py-1.5 bg-gradient-to-r from-cyan-glow/15 to-blue-accent/15 border border-cyan-glow/25 rounded-full text-cyan-glow text-xs font-medium"
               >
                 <Braces className="w-3 h-3" />
-                24 repos
+                39 repos
               </motion.div>
             </div>
           </motion.div>

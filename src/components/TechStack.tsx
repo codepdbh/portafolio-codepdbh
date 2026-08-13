@@ -1,6 +1,12 @@
 import { motion } from 'framer-motion';
 
 const technologies = [
+  { name: 'PostgreSQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg', color: 'from-blue-400/20 to-blue-500/10 border-blue-400/25 text-blue-300' },
+  { name: 'PostGIS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg', color: 'from-emerald-400/20 to-emerald-500/10 border-emerald-400/25 text-emerald-300' },
+  { name: 'Docker', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg', color: 'from-sky-400/20 to-sky-500/10 border-sky-400/25 text-sky-300' },
+  { name: 'Redis', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg', color: 'from-red-400/20 to-red-500/10 border-red-400/25 text-red-300' },
+  { name: 'FastAPI', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg', color: 'from-teal-400/20 to-teal-500/10 border-teal-400/25 text-teal-300' },
+  { name: 'Java', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg', color: 'from-orange-400/20 to-orange-500/10 border-orange-400/25 text-orange-300' },
   { name: 'PHP', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg', color: 'from-indigo-400/20 to-indigo-500/10 border-indigo-400/25 text-indigo-300' },
   { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg', color: 'from-orange-400/20 to-orange-500/10 border-orange-400/25 text-orange-300' },
   { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg', color: 'from-yellow-400/20 to-yellow-500/10 border-yellow-400/25 text-yellow-300' },
@@ -35,7 +41,7 @@ export default function TechStack() {
           </h2>
           <div className="w-16 h-1 bg-gradient-to-r from-cyan-glow to-blue-accent rounded-full mx-auto mb-6" />
           <p className="text-text-secondary max-w-xl mx-auto">
-            Tecnologías y herramientas con las que construyo soluciones.
+            Del prototipo al despliegue: frontend, backend, datos, GIS, móvil, IA e infraestructura.
           </p>
         </motion.div>
 

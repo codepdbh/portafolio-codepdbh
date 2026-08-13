@@ -6,6 +6,8 @@ import { GithubIcon } from './icons';
 const navLinks = [
   { label: 'Inicio', href: '#inicio' },
   { label: 'Sobre mí', href: '#sobre-mi' },
+  { label: 'Experiencia', href: '#experiencia' },
+  { label: 'Formación', href: '#formacion' },
   { label: 'Stack', href: '#stack' },
   { label: 'Proyectos', href: '#proyectos' },
   { label: 'Contacto', href: '#contacto' },

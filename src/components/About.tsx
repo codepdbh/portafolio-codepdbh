@@ -40,11 +40,10 @@ export default function About() {
           </h2>
           <div className="w-16 h-1 bg-gradient-to-r from-cyan-glow to-blue-accent rounded-full mx-auto mb-6" />
           <p className="text-text-secondary max-w-2xl mx-auto leading-relaxed text-base sm:text-lg">
-            Soy Ingeniero de Sistemas con experiencia en desarrollo full stack,
-            inteligencia artificial y aplicaciones móviles. Me apasiona crear herramientas
-            que resuelvan problemas reales, combinando código limpio con diseño funcional.
-            Trabajo con <span className="text-text-primary font-medium">Python, JavaScript, TypeScript, Flutter, PHP</span> y
-            tecnologías de IA, siempre buscando aprender y construir algo mejor.
+            Soy Ingeniero de Sistemas con más de tres años de experiencia en análisis, diseño,
+            desarrollo e implementación de soluciones web, móviles, GIS e institucionales.
+            Convierto necesidades reales en productos mantenibles, desde la arquitectura y los datos
+            hasta la interfaz, el despliegue y la capacitación de usuarios.
           </p>
         </motion.div>
 

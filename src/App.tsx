@@ -3,6 +3,8 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import TechStack from './components/TechStack';
+import Experience from './components/Experience';
+import Education from './components/Education';
 import ProjectGrid from './components/ProjectGrid';
 import Footer from './components/Footer';
 import type { Category } from './data/projects';
@@ -17,6 +19,8 @@ function App() {
       <main>
         <Hero />
         <About />
+        <Experience />
+        <Education />
         <TechStack />
         <ProjectGrid
           activeCategory={activeCategory}
