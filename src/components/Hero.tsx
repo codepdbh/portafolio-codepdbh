@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { ArrowDown, Braces, ChevronRight } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from './icons';
+import { projects } from '../data/projects';
 
 export default function Hero() {
   return (
@@ -132,7 +133,7 @@ export default function Hero() {
                     {'  '}],
                   </Line>
                   <Line num={11}>
-                    {'  '}<Prop>projects</Prop>: <Num>39</Num>,
+                    {'  '}<Prop>projects</Prop>: <Num>{projects.length}</Num>,
                   </Line>
                   <Line num={12}>
                     {'  '}<Prop>passion</Prop>: <Str>"Building things"</Str>
@@ -151,7 +152,7 @@ export default function Hero() {
                 className="absolute -top-3 -right-3 flex items-center gap-1.5 px-3 py-1.5 bg-gradient-to-r from-cyan-glow/15 to-blue-accent/15 border border-cyan-glow/25 rounded-full text-cyan-glow text-xs font-medium"
               >
                 <Braces className="w-3 h-3" />
-                39 repos
+                {projects.length} repos
               </motion.div>
             </div>
           </motion.div>

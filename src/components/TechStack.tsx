@@ -15,6 +15,8 @@ const technologies = [
   { name: 'Flutter', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg', color: 'from-cyan-400/20 to-cyan-500/10 border-cyan-400/25 text-cyan-300' },
   { name: 'Dart', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg', color: 'from-teal-400/20 to-teal-500/10 border-teal-400/25 text-teal-300' },
   { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg', color: 'from-sky-400/20 to-sky-500/10 border-sky-400/25 text-sky-300' },
+  { name: 'Next.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg', color: 'from-slate-400/20 to-slate-500/10 border-slate-400/25 text-slate-300' },
+  { name: 'Tailwind CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg', color: 'from-cyan-400/20 to-cyan-500/10 border-cyan-400/25 text-cyan-300' },
   { name: 'Vite', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg', color: 'from-purple-400/20 to-purple-500/10 border-purple-400/25 text-purple-300' },
   { name: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg', color: 'from-green-400/20 to-green-500/10 border-green-400/25 text-green-300' },
   { name: 'NestJS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg', color: 'from-red-400/20 to-red-500/10 border-red-400/25 text-red-300' },
