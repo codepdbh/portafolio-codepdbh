@@ -1,0 +1,322 @@
+{
+  "nfsmw-android": {
+    "file": "projects/nfsmw-android.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/nfsmw-android/HEAD/extras/banner.png",
+    "kind": "banner"
+  },
+  "NFS3-HP-AndroidEvolved": {
+    "file": "projects/nfs3-hp-androidevolved.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/NFS3-HP-AndroidEvolved/HEAD/screenshots/android-race.png",
+    "kind": "screenshot"
+  },
+  "NFS-CARBON-360-DECOMP": {
+    "file": "projects/nfs-carbon-360-decomp.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/NFS-CARBON-360-DECOMP/HEAD/android/app/src/main/res/mipmap-nodpi/ic_launcher.png",
+    "kind": "icon"
+  },
+  "re3-gta-advance-port": {
+    "file": "projects/re3-gta-advance-port.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/re3-gta-advance-port/HEAD/docs/advance_screenshot_menu.png",
+    "kind": "screenshot"
+  },
+  "PSPRecomp-VCS-Android": {
+    "file": "projects/psprecomp-vcs-android.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/PSPRecomp-VCS-Android/HEAD/assets/branding/icono.png",
+    "kind": "icon"
+  },
+  "librw-re3-android": {
+    "file": "projects/librw-re3-android.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/librw-re3-android",
+    "kind": "preview"
+  },
+  "revc-android-port-evolved": {
+    "file": "projects/revc-android-port-evolved.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/revc-android-port-evolved/HEAD/res/images/logo_1024.png",
+    "kind": "icon"
+  },
+  "PSPRecomp-LCS-Android": {
+    "file": "projects/psprecomp-lcs-android.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/PSPRecomp-LCS-Android/HEAD/assets/ICONOLCS.png",
+    "kind": "icon"
+  },
+  "CBFD-Recompiled-Android-Evolved": {
+    "file": "projects/cbfd-recompiled-android-evolved.png",
+    "source": "https://github.com/user-attachments/assets/abb979d7-24a5-44f8-98d3-088ba2054a74",
+    "kind": "screenshot"
+  },
+  "melee360": {
+    "file": "projects/melee360.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/melee360/HEAD/docs/images/xenon-emulator-guest-framebuffer.png",
+    "kind": "screenshot"
+  },
+  "xboxrecomp-conker": {
+    "file": "projects/xboxrecomp-conker.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/xboxrecomp-conker",
+    "kind": "preview"
+  },
+  "re3-android-port-evolved": {
+    "file": "projects/re3-android-port-evolved.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/re3-android-port-evolved/HEAD/docs/screenshot_driving.png",
+    "kind": "screenshot"
+  },
+  "reVC-android-evolved-ENHANCED-MOD": {
+    "file": "projects/revc-android-evolved-enhanced-mod.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/reVC-android-evolved-ENHANCED-MOD/HEAD/res/images/logo_1024.png",
+    "kind": "icon"
+  },
+  "herobrine-omniblock-reworked": {
+    "file": "projects/herobrine-omniblock-reworked.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/herobrine-omniblock-reworked",
+    "kind": "preview"
+  },
+  "revc-long-night-experimental-port": {
+    "file": "projects/revc-long-night-experimental-port.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/revc-long-night-experimental-port/HEAD/screenshots/gameplay-tanque.png",
+    "kind": "screenshot"
+  },
+  "conker-bad-fur-day-pc": {
+    "file": "projects/conker-bad-fur-day-pc.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/conker-bad-fur-day-pc",
+    "kind": "preview"
+  },
+  "re3-frosted-winter-port-experimental": {
+    "file": "projects/re3-frosted-winter-port-experimental.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/re3-frosted-winter-port-experimental/HEAD/docs/fwr_screenshot_gameplay.png",
+    "kind": "screenshot"
+  },
+  "editor-stickersconanimacion-whatsapp": {
+    "file": "projects/editor-stickersconanimacion-whatsapp.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/editor-stickersconanimacion-whatsapp",
+    "kind": "preview"
+  },
+  "caja_subterranea": {
+    "file": "projects/caja_subterranea.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/caja_subterranea/HEAD/assets/logo_blanco.png",
+    "kind": "icon"
+  },
+  "re3-forelli-redemption": {
+    "file": "projects/re3-forelli-redemption.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/re3-forelli-redemption/HEAD/.github/screenshots/gameplay.png",
+    "kind": "screenshot"
+  },
+  "VCSPC": {
+    "file": "projects/vcspc.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/VCSPC",
+    "kind": "preview"
+  },
+  "qr_tree_free": {
+    "file": "projects/qr_tree_free.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/qr_tree_free",
+    "kind": "preview"
+  },
+  "curso-python": {
+    "file": "projects/curso-python.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/curso-python",
+    "kind": "preview"
+  },
+  "hola_mundo_3D": {
+    "file": "projects/hola_mundo_3d.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/hola_mundo_3D",
+    "kind": "preview"
+  },
+  "phonecam": {
+    "file": "projects/phonecam.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/phonecam/HEAD/icono.png",
+    "kind": "icon"
+  },
+  "reencuentro-davilista": {
+    "file": "projects/reencuentro-davilista.webp",
+    "source": "https://raw.githubusercontent.com/codepdbh/reencuentro-davilista/HEAD/public/photos/colegio-historico.webp",
+    "kind": "screenshot"
+  },
+  "ASCII-CAT": {
+    "file": "projects/ascii-cat.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/ASCII-CAT",
+    "kind": "preview"
+  },
+  "blingtrees-reworked-omniblock": {
+    "file": "projects/blingtrees-reworked-omniblock.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/blingtrees-reworked-omniblock",
+    "kind": "preview"
+  },
+  "demo-sereci": {
+    "file": "projects/demo-sereci.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/demo-sereci/HEAD/logos/bannerSERECI2025.png",
+    "kind": "banner"
+  },
+  "michi-busca-leche-nestyle": {
+    "file": "projects/michi-busca-leche-nestyle.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/michi-busca-leche-nestyle",
+    "kind": "preview"
+  },
+  "qwen-cat-nestyle": {
+    "file": "projects/qwen-cat-nestyle.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/qwen-cat-nestyle",
+    "kind": "preview"
+  },
+  "gtaiv-latam-ai-dubber": {
+    "file": "projects/gtaiv-latam-ai-dubber.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/gtaiv-latam-ai-dubber",
+    "kind": "preview"
+  },
+  "smb1-gemini-clon": {
+    "file": "projects/smb1-gemini-clon.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/smb1-gemini-clon",
+    "kind": "preview"
+  },
+  "smb1-gptclon": {
+    "file": "projects/smb1-gptclon.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/smb1-gptclon",
+    "kind": "preview"
+  },
+  "second_screen": {
+    "file": "projects/second_screen.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/second_screen/HEAD/assets/icono.png",
+    "kind": "icon"
+  },
+  "teleprompter": {
+    "file": "projects/teleprompter.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/teleprompter",
+    "kind": "preview"
+  },
+  "chalaland": {
+    "file": "projects/chalaland.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/chalaland/HEAD/public/assets/logo.png",
+    "kind": "icon"
+  },
+  "jarvis-windows-ai": {
+    "file": "projects/jarvis-windows-ai.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/jarvis-windows-ai",
+    "kind": "preview"
+  },
+  "ruta-sin-gluten": {
+    "file": "projects/ruta-sin-gluten.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/ruta-sin-gluten/HEAD/frontend/public/logo.png",
+    "kind": "icon"
+  },
+  "Typhon-rework-omniblock": {
+    "file": "projects/typhon-rework-omniblock.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/Typhon-rework-omniblock",
+    "kind": "preview"
+  },
+  "sucursales-multiplataforma": {
+    "file": "projects/sucursales-multiplataforma.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/sucursales-multiplataforma/HEAD/frontend/public/logo.png",
+    "kind": "icon"
+  },
+  "cecasem-helpdesk": {
+    "file": "projects/cecasem-helpdesk.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/cecasem-helpdesk/HEAD/desktop/src-tauri/icons/128x128@2x.png",
+    "kind": "icon"
+  },
+  "karaoke-ai": {
+    "file": "projects/karaoke-ai.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/karaoke-ai/HEAD/frontend/public/logo.png",
+    "kind": "icon"
+  },
+  "landing_page_ongs": {
+    "file": "projects/landing_page_ongs.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/landing_page_ongs",
+    "kind": "preview"
+  },
+  "crud-flutter-nest": {
+    "file": "projects/crud-flutter-nest.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/crud-flutter-nest",
+    "kind": "preview"
+  },
+  "safeshare-ai": {
+    "file": "projects/safeshare-ai.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/safeshare-ai",
+    "kind": "preview"
+  },
+  "catyping": {
+    "file": "projects/catyping.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/catyping/HEAD/src/logo.png",
+    "kind": "icon"
+  },
+  "naves3d": {
+    "file": "projects/naves3d.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/naves3d",
+    "kind": "preview"
+  },
+  "Piano": {
+    "file": "projects/piano.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/Piano",
+    "kind": "preview"
+  },
+  "Violin": {
+    "file": "projects/violin.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/Violin",
+    "kind": "preview"
+  },
+  "NeonSnake3D": {
+    "file": "projects/neonsnake3d.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/NeonSnake3D",
+    "kind": "preview"
+  },
+  "Qwen3-TTS-Interface": {
+    "file": "projects/qwen3-tts-interface.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/Qwen3-TTS-Interface",
+    "kind": "preview"
+  },
+  "Snake": {
+    "file": "projects/snake.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/Snake",
+    "kind": "preview"
+  },
+  "SonarLink": {
+    "file": "projects/sonarlink.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/SonarLink",
+    "kind": "preview"
+  },
+  "tr": {
+    "file": "projects/tr.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/tr",
+    "kind": "preview"
+  },
+  "prueba_Cecasem": {
+    "file": "projects/prueba_cecasem.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/prueba_Cecasem",
+    "kind": "preview"
+  },
+  "flutter_pocketbase_chat": {
+    "file": "projects/flutter_pocketbase_chat.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/flutter_pocketbase_chat",
+    "kind": "preview"
+  },
+  "MagiskOnWSALocalFixScript": {
+    "file": "projects/magiskonwsalocalfixscript.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/MagiskOnWSALocalFixScript",
+    "kind": "preview"
+  },
+  "FlorFlutter": {
+    "file": "projects/florflutter.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/FlorFlutter",
+    "kind": "preview"
+  },
+  "bolillero_flutter": {
+    "file": "projects/bolillero_flutter.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/bolillero_flutter",
+    "kind": "preview"
+  },
+  "Arduino_Serial_Python": {
+    "file": "projects/arduino_serial_python.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/Arduino_Serial_Python",
+    "kind": "preview"
+  },
+  "iaymara": {
+    "file": "projects/iaymara.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/iaymara/HEAD/iaymara/assets/images/icono.png",
+    "kind": "icon"
+  },
+  "juegosdbp": {
+    "file": "projects/juegosdbp.png",
+    "source": "https://raw.githubusercontent.com/codepdbh/juegosdbp/HEAD/preview.png",
+    "kind": "screenshot"
+  },
+  "mi-primer-p-con-gh": {
+    "file": "projects/mi-primer-p-con-gh.png",
+    "source": "https://opengraph.githubassets.com/1/codepdbh/mi-primer-p-con-gh",
+    "kind": "preview"
+  }
+}

@@ -1,0 +1,665 @@
+{
+  "updatedAt": "2026-10-02T21:50:31.483Z",
+  "repos": [
+    {
+      "name": "CBFD-Recompiled-Android-Evolved",
+      "description": "Conker's Bad Fur Day Recompiled",
+      "html_url": "https://github.com/codepdbh/CBFD-Recompiled-Android-Evolved",
+      "language": "C",
+      "stargazers_count": 13,
+      "fork": true,
+      "archived": false,
+      "pushed_at": "2026-10-01T15:19:39Z"
+    },
+    {
+      "name": "nfsmw-android",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/nfsmw-android",
+      "language": "C",
+      "stargazers_count": 82,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-10-02T20:48:18Z"
+    },
+    {
+      "name": "NFS3-HP-AndroidEvolved",
+      "description": "Native ARM64 Android community port of NFS III Hot Pursuit, based on motor-dev/nfs-recompiled. Original game data required.",
+      "html_url": "https://github.com/codepdbh/NFS3-HP-AndroidEvolved",
+      "language": "C++",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-10-02T20:01:36Z"
+    },
+    {
+      "name": "NFS-CARBON-360-DECOMP",
+      "description": "Experimental static recompilation of Need for Speed Carbon for Xbox 360 using ReXGlue. Windows x64 prototype, analysis fixes and build instructions.",
+      "html_url": "https://github.com/codepdbh/NFS-CARBON-360-DECOMP",
+      "language": "Java",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-10-02T16:44:16Z"
+    },
+    {
+      "name": "librw-re3-android",
+      "description": "A re-implementation of the RenderWare Graphics engine",
+      "html_url": "https://github.com/codepdbh/librw-re3-android",
+      "language": null,
+      "stargazers_count": 2,
+      "fork": true,
+      "archived": false,
+      "pushed_at": "2026-09-23T20:23:20Z"
+    },
+    {
+      "name": "re3-gta-advance-port",
+      "description": "Android port (re3 engine) of the GTA III total-conversion mod 'GTA Advance PC'. Source only, no game data; APK in Releases.",
+      "html_url": "https://github.com/codepdbh/re3-gta-advance-port",
+      "language": "C++",
+      "stargazers_count": 3,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-09-23T20:27:41Z"
+    },
+    {
+      "name": "PSPRecomp-VCS-Android",
+      "description": "Experimental Android ARM64 port of PSPRecomp's Vice City Stories profile",
+      "html_url": "https://github.com/codepdbh/PSPRecomp-VCS-Android",
+      "language": "C++",
+      "stargazers_count": 23,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-09-28T14:53:49Z"
+    },
+    {
+      "name": "PSPRecomp-LCS-Android",
+      "description": "Port nativo de GTA: Liberty City Stories (PSP) para Android, basado en recompilación estática (PSPRecomp). No incluye datos del juego.",
+      "html_url": "https://github.com/codepdbh/PSPRecomp-LCS-Android",
+      "language": "C++",
+      "stargazers_count": 2,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-09-30T16:09:48Z"
+    },
+    {
+      "name": "xboxrecomp-conker",
+      "description": "Bring-up experimental de Conker: Live & Reloaded mediante recompilación estática de Xbox original",
+      "html_url": "https://github.com/codepdbh/xboxrecomp-conker",
+      "language": "C",
+      "stargazers_count": 1,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-08-28T12:37:20Z"
+    },
+    {
+      "name": "revc-android-port-evolved",
+      "description": "Reverse engineering the classic GTA Vice City game",
+      "html_url": "https://github.com/codepdbh/revc-android-port-evolved",
+      "language": "C++",
+      "stargazers_count": 13,
+      "fork": true,
+      "archived": false,
+      "pushed_at": "2026-09-16T14:02:55Z"
+    },
+    {
+      "name": "re3-android-port-evolved",
+      "description": "Reverse engineering the classic GTA III game",
+      "html_url": "https://github.com/codepdbh/re3-android-port-evolved",
+      "language": "C++",
+      "stargazers_count": 5,
+      "fork": true,
+      "archived": false,
+      "pushed_at": "2026-09-15T13:38:40Z"
+    },
+    {
+      "name": "melee360",
+      "description": "Experimental native Super Smash Bros. Melee port to Xbox 360 using LibXenon and XeLL",
+      "html_url": "https://github.com/codepdbh/melee360",
+      "language": "C",
+      "stargazers_count": 2,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-09-30T20:59:07Z"
+    },
+    {
+      "name": "conker-bad-fur-day-pc",
+      "description": "Conker's Bad Fur Day (N64) Native PC Port & Static Recompilation with RT64 Vulkan/D3D12 hardware backend and Ultramodern runtime",
+      "html_url": "https://github.com/codepdbh/conker-bad-fur-day-pc",
+      "language": "C",
+      "stargazers_count": 1,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-09-03T01:07:51Z"
+    },
+    {
+      "name": "herobrine-omniblock-reworked",
+      "description": "Reworked Herobrine plugin for OmniBlock Paper/Spigot 26.2 servers",
+      "html_url": "https://github.com/codepdbh/herobrine-omniblock-reworked",
+      "language": "Java",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-07-09T03:48:20Z"
+    },
+    {
+      "name": "reVC-android-evolved-ENHANCED-MOD",
+      "description": "reVC Android port (evolved) - 'reVC Enhanced & Fixed' edition: runs the 'vc enhanced' Vice City mod on Android. Source only, no game data.",
+      "html_url": "https://github.com/codepdbh/reVC-android-evolved-ENHANCED-MOD",
+      "language": "C++",
+      "stargazers_count": 1,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-09-21T21:57:26Z"
+    },
+    {
+      "name": "revc-long-night-experimental-port",
+      "description": "reVC: Long Night — Experimental Port (zombie apocalypse total-conversion for GTA Vice City, Android build). Derived from codepdbh/revc-android-port-evolved.",
+      "html_url": "https://github.com/codepdbh/revc-long-night-experimental-port",
+      "language": "C++",
+      "stargazers_count": 1,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-09-16T14:03:08Z"
+    },
+    {
+      "name": "re3-frosted-winter-port-experimental",
+      "description": "Experimental Android port work for the GTA III mod 'Frosted Winter Remastered', built on top of RE3 Android Evolved",
+      "html_url": "https://github.com/codepdbh/re3-frosted-winter-port-experimental",
+      "language": "C++",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-09-15T21:42:34Z"
+    },
+    {
+      "name": "re3-forelli-redemption",
+      "description": "Android port (re3/reVC engine) for the GTA Vice City total-conversion mod 'Forelli Redemption'",
+      "html_url": "https://github.com/codepdbh/re3-forelli-redemption",
+      "language": "C++",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-09-15T19:23:40Z"
+    },
+    {
+      "name": "VCSPC",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/VCSPC",
+      "language": null,
+      "stargazers_count": 0,
+      "fork": true,
+      "archived": false,
+      "pushed_at": "2026-09-14T14:32:01Z"
+    },
+    {
+      "name": "editor-stickersconanimacion-whatsapp",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/editor-stickersconanimacion-whatsapp",
+      "language": "JavaScript",
+      "stargazers_count": 5,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-09-14T13:15:17Z"
+    },
+    {
+      "name": "caja_subterranea",
+      "description": "Sistema local offline de caja, ventas e inventario.",
+      "html_url": "https://github.com/codepdbh/caja_subterranea",
+      "language": "Dart",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-09-11T15:44:40Z"
+    },
+    {
+      "name": "qr_tree_free",
+      "description": "Generador QR con árboles 3D, colores, lluvia, sol, nieve y controles de cámara.",
+      "html_url": "https://github.com/codepdbh/qr_tree_free",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-09-07T21:48:43Z"
+    },
+    {
+      "name": "curso-python",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/curso-python",
+      "language": "Python",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-09-07T21:09:50Z"
+    },
+    {
+      "name": "hola_mundo_3D",
+      "description": "EL MEJOR HOLA MUNDO DEL MUNDO",
+      "html_url": "https://github.com/codepdbh/hola_mundo_3D",
+      "language": "HTML",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-09-04T13:30:14Z"
+    },
+    {
+      "name": "phonecam",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/phonecam",
+      "language": "C++",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-09-03T16:13:44Z"
+    },
+    {
+      "name": "ASCII-CAT",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/ASCII-CAT",
+      "language": "HTML",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-09-02T15:36:59Z"
+    },
+    {
+      "name": "gtaiv-latam-ai-dubber",
+      "description": "Pipeline local de doblaje latino con IA para audios extraídos de GTA IV",
+      "html_url": "https://github.com/codepdbh/gtaiv-latam-ai-dubber",
+      "language": "Python",
+      "stargazers_count": 2,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-08-30T22:59:31Z"
+    },
+    {
+      "name": "portafolio-codepdbh",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/portafolio-codepdbh",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-08-27T14:48:40Z"
+    },
+    {
+      "name": "blingtrees-reworked-omniblock",
+      "description": "Modern Paper/Spigot 26.2 rework of SethBling's BlingTrees plugin",
+      "html_url": "https://github.com/codepdbh/blingtrees-reworked-omniblock",
+      "language": "Java",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-08-26T02:51:39Z"
+    },
+    {
+      "name": "reencuentro-davilista",
+      "description": "Archivo digital conmemorativo del Reencuentro Davilista del Colegio Hugo Dávila",
+      "html_url": "https://github.com/codepdbh/reencuentro-davilista",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-08-25T15:26:14Z"
+    },
+    {
+      "name": "qwen-cat-nestyle",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/qwen-cat-nestyle",
+      "language": "HTML",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-08-21T18:59:47Z"
+    },
+    {
+      "name": "michi-busca-leche-nestyle",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/michi-busca-leche-nestyle",
+      "language": "HTML",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-08-21T18:55:05Z"
+    },
+    {
+      "name": "demo-sereci",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/demo-sereci",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-08-13T19:51:31Z"
+    },
+    {
+      "name": "smb1-gemini-clon",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/smb1-gemini-clon",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-08-12T20:39:43Z"
+    },
+    {
+      "name": "smb1-gptclon",
+      "description": "A SMB 1 clon - first level DEMO",
+      "html_url": "https://github.com/codepdbh/smb1-gptclon",
+      "language": "HTML",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-08-12T19:59:03Z"
+    },
+    {
+      "name": "teleprompter",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/teleprompter",
+      "language": "Dart",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-08-12T14:18:15Z"
+    },
+    {
+      "name": "second_screen",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/second_screen",
+      "language": "C++",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-08-11T22:05:26Z"
+    },
+    {
+      "name": "jarvis-windows-ai",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/jarvis-windows-ai",
+      "language": "Python",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-08-11T00:55:36Z"
+    },
+    {
+      "name": "chalaland",
+      "description": "Eco-Lodge Tourism Website - Next.js + TypeScript + Tailwind CSS",
+      "html_url": "https://github.com/codepdbh/chalaland",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-08-05T19:16:20Z"
+    },
+    {
+      "name": "naves3d",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/naves3d",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-08-04T22:35:25Z"
+    },
+    {
+      "name": "Typhon-rework-omniblock",
+      "description": "A Minecraft Plugin aims to implement real-life volcanoes and its behavior in server-side plugin",
+      "html_url": "https://github.com/codepdbh/Typhon-rework-omniblock",
+      "language": "Java",
+      "stargazers_count": 0,
+      "fork": true,
+      "archived": false,
+      "pushed_at": "2026-07-09T04:26:59Z"
+    },
+    {
+      "name": "ruta-sin-gluten",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/ruta-sin-gluten",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-06-24T13:19:12Z"
+    },
+    {
+      "name": "sucursales-multiplataforma",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/sucursales-multiplataforma",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-06-24T13:19:12Z"
+    },
+    {
+      "name": "karaoke-ai",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/karaoke-ai",
+      "language": "Python",
+      "stargazers_count": 6,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-06-24T13:19:11Z"
+    },
+    {
+      "name": "cecasem-helpdesk",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/cecasem-helpdesk",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-05-28T19:52:35Z"
+    },
+    {
+      "name": "landing_page_ongs",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/landing_page_ongs",
+      "language": "HTML",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-05-18T15:07:19Z"
+    },
+    {
+      "name": "crud-flutter-nest",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/crud-flutter-nest",
+      "language": "C++",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-05-06T13:53:20Z"
+    },
+    {
+      "name": "safeshare-ai",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/safeshare-ai",
+      "language": "PHP",
+      "stargazers_count": 1,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-04-27T23:49:10Z"
+    },
+    {
+      "name": "catyping",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/catyping",
+      "language": "Python",
+      "stargazers_count": 5,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-04-23T21:46:26Z"
+    },
+    {
+      "name": "Piano",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/Piano",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-04-24T16:38:14Z"
+    },
+    {
+      "name": "Violin",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/Violin",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-04-24T16:14:48Z"
+    },
+    {
+      "name": "Qwen3-TTS-Interface",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/Qwen3-TTS-Interface",
+      "language": "Python",
+      "stargazers_count": 1,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-03-23T13:16:58Z"
+    },
+    {
+      "name": "NeonSnake3D",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/NeonSnake3D",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-03-11T16:08:35Z"
+    },
+    {
+      "name": "Snake",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/Snake",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-03-11T15:41:13Z"
+    },
+    {
+      "name": "SonarLink",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/SonarLink",
+      "language": "HTML",
+      "stargazers_count": 4,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-03-09T16:04:09Z"
+    },
+    {
+      "name": "codepdbh",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/codepdbh",
+      "language": null,
+      "stargazers_count": 1,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-03-02T20:45:03Z"
+    },
+    {
+      "name": "tr",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/tr",
+      "language": null,
+      "stargazers_count": 0,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-02-04T21:44:13Z"
+    },
+    {
+      "name": "prueba_Cecasem",
+      "description": "Prueba de Backend y Frontend para CECASEM",
+      "html_url": "https://github.com/codepdbh/prueba_Cecasem",
+      "language": "JavaScript",
+      "stargazers_count": 1,
+      "fork": false,
+      "archived": false,
+      "pushed_at": "2026-01-08T14:42:05Z"
+    },
+    {
+      "name": "mi-primer-p-con-gh",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/mi-primer-p-con-gh",
+      "language": null,
+      "stargazers_count": 0,
+      "fork": true,
+      "archived": false,
+      "pushed_at": "2021-03-17T13:43:41Z"
+    },
+    {
+      "name": "FlorFlutter",
+      "description": "FlorFlutter",
+      "html_url": "https://github.com/codepdbh/FlorFlutter",
+      "language": null,
+      "stargazers_count": 0,
+      "fork": true,
+      "archived": false,
+      "pushed_at": "2023-09-21T19:31:03Z"
+    },
+    {
+      "name": "flutter_pocketbase_chat",
+      "description": "A Flutter realtime chat app using pocketbase",
+      "html_url": "https://github.com/codepdbh/flutter_pocketbase_chat",
+      "language": null,
+      "stargazers_count": 0,
+      "fork": true,
+      "archived": false,
+      "pushed_at": "2024-02-06T20:54:51Z"
+    },
+    {
+      "name": "MagiskOnWSALocalFixScript",
+      "description": "Fixed Build Script for : Integrate Magisk root and Google Apps into WSA (Windows Subsystem for Android)",
+      "html_url": "https://github.com/codepdbh/MagiskOnWSALocalFixScript",
+      "language": null,
+      "stargazers_count": 0,
+      "fork": true,
+      "archived": false,
+      "pushed_at": "2024-02-22T18:27:03Z"
+    },
+    {
+      "name": "bolillero_flutter",
+      "description": " 🎱 Bolillero Trucado - Rigged Lottery Machine (Flutter)",
+      "html_url": "https://github.com/codepdbh/bolillero_flutter",
+      "language": null,
+      "stargazers_count": 0,
+      "fork": true,
+      "archived": false,
+      "pushed_at": "2025-01-20T01:04:28Z"
+    },
+    {
+      "name": "Arduino_Serial_Python",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/Arduino_Serial_Python",
+      "language": null,
+      "stargazers_count": 0,
+      "fork": true,
+      "archived": false,
+      "pushed_at": "2025-07-04T16:40:04Z"
+    },
+    {
+      "name": "iaymara",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/iaymara",
+      "language": null,
+      "stargazers_count": 0,
+      "fork": true,
+      "archived": false,
+      "pushed_at": "2025-07-13T00:42:27Z"
+    },
+    {
+      "name": "juegosdbp",
+      "description": null,
+      "html_url": "https://github.com/codepdbh/juegosdbp",
+      "language": null,
+      "stargazers_count": 0,
+      "fork": true,
+      "archived": false,
+      "pushed_at": "2025-10-24T14:19:56Z"
+    }
+  ]
+}

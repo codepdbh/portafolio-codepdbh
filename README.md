@@ -1,142 +1,37 @@
-# Portafolio — Paulo Daniel Batuani Hurtado
+﻿# codepdbh — Portafolio
 
-Portafolio profesional de proyectos de GitHub, construido con React, TypeScript, Vite y Tailwind CSS.
+Portafolio de Paulo Daniel Batuani Hurtado. React, TypeScript y Vite; diseño editorial responsive, catálogo de proyectos públicos, ports y estrellas de GitHub.
 
-> Systems Engineer | Full Stack Developer | AI Enthusiast
+Publicado en https://codepdbh.github.io/portafolio-codepdbh/
 
----
+## Desarrollo
 
-## 🚀 Instalación
-
-```bash
-git clone https://github.com/codepdbh/portafolio-codepdbh.git
-cd portafolio-codepdbh
-npm install
-```
-
-## 💻 Ejecutar localmente
-
-```bash
+```sh
+npm ci
 npm run dev
-```
-
-Se abrirá en `http://localhost:5173/portafolio-codepdbh/`
-
-## 🖼️ Agregar imágenes de proyectos
-
-1. Coloca tus imágenes `.png` en la carpeta:
-
-```
-src/assets/projects/
-```
-
-2. Nombra cada imagen con el **slug** del proyecto (en minúsculas, con guiones). Ejemplos:
-
-| Proyecto | Archivo de imagen |
-|---|---|
-| SafeShare AI | `safeshare-ai.png` |
-| CRUD Flutter + NestJS | `crud-flutter-nest.png` |
-| NeonSnake 3D | `neonsnake3d.png` |
-| Karaoke AI | `karaoke-ai.png` |
-| Piano | `piano.png` |
-
-3. Si no existe la imagen, se mostrará un placeholder elegante automáticamente.
-
-## ➕ Agregar nuevos proyectos
-
-Edita el archivo:
-
-```
-src/data/projects.ts
-```
-
-Agrega un nuevo objeto al array `projects` con esta estructura:
-
-```typescript
-{
-  name: 'Nombre del Proyecto',
-  slug: 'nombre-del-proyecto',        // mismo nombre que la imagen .png
-  description: 'Descripción breve y profesional del proyecto.',
-  image: 'nombre-del-proyecto',        // sin extensión
-  repoUrl: 'https://github.com/codepdbh/nombre-del-proyecto',
-  demoUrl: 'https://demo.com',         // opcional
-  technologies: ['React', 'TypeScript'],
-  category: ['Web'],                   // IA, Web, Flutter, Juegos, Herramientas, Seguridad, Educación, Backend
-  language: 'TypeScript',              // opcional
-  featured: false,                     // true para mostrarlo en la sección destacados
-}
-```
-
-## 🏗️ Build de producción
-
-```bash
 npm run build
 ```
 
-Los archivos se generan en la carpeta `dist/`.
+## Proyectos y estrellas
 
-## 🌐 Desplegar en GitHub Pages
+- `src/data/catalog.ts`: títulos y descripciones seleccionados, clasificación de ports y combinación con el catálogo anterior.
+- `src/data/github.json`: copia pública de repositorios y estrellas para mostrar contenido incluso si GitHub no responde.
+- `src/hooks/useRepositories.ts`: consulta paginada de repositorios públicos al abrir la página, cada 30 minutos mientras está visible y al recuperar el foco. Conserva la última respuesta válida en almacenamiento local cuando está disponible. Nunca necesita credenciales en el navegador.
+- `node scripts/sync-github.mjs`: actualiza la copia local. Un fallo conserva el archivo anterior.
+- Los nuevos repositorios públicos aparecen automáticamente; para personalizar su descripción o categoría, editar `catalog.ts`.
 
-### Opción 1: Con `gh-pages`
+La API pública puede limitar las consultas. En ese caso se muestra la última copia con su fecha, sin convertir valores desconocidos en ceros.
 
-```bash
-npm run deploy
-```
+## Imágenes y procedencia
 
-Esto ejecuta automáticamente `build` y luego publica la carpeta `dist/` en la rama `gh-pages`.
+`src/data/project-images.json` registra la URL original, el archivo local y el tipo de cada imagen. `public/projects/` conserva imágenes obtenidas de los repositorios o sus README. Cuando no hay una imagen apropiada se utiliza la vista previa del repositorio generada por GitHub, identificada en pantalla. No se presentan estas vistas previas como capturas del juego o aplicación.
 
-### Opción 2: Manual
+Las imágenes se cargan bajo demanda, conservando proporciones y colores. Los nuevos proyectos sin entrada en el manifiesto usan la vista previa de GitHub. Para cambiar una imagen, guardar el recurso en `public/projects/` y actualizar su entrada y procedencia. Los créditos y licencias pertenecen a los respectivos proyectos.
 
-1. Ejecuta `npm run build`
-2. Sube el contenido de `dist/` a la rama `gh-pages` de tu repositorio
-3. En GitHub → Settings → Pages → Source: selecciona la rama `gh-pages`, carpeta `/ (root)`
+## GitHub Pages
 
-### ⚠️ Importante: Configuración del base path
+`.github/workflows/pages.yml` construye y publica con GitHub Actions en cada push a `main`, manualmente y todos los días a las 10:17 UTC. Antes de construir renueva los datos públicos; si la API falla usa la copia del repositorio. No genera commits automáticos ni publica secretos.
 
-En `vite.config.ts`, el valor de `base` debe coincidir con el nombre de tu repositorio:
+Pages debe usar **GitHub Actions** como origen. El comando `npm run deploy` inicia el workflow de la rama remota `main`; los cambios locales deben estar confirmados y subidos antes.
 
-```typescript
-base: '/portafolio-codepdbh/'
-```
-
-Si cambias el nombre del repositorio, actualiza este valor.
-
-## 📁 Estructura del proyecto
-
-```
-src/
-├── assets/
-│   └── projects/          ← Imágenes .png de los proyectos
-├── components/
-│   ├── Header.tsx
-│   ├── Hero.tsx
-│   ├── About.tsx
-│   ├── TechStack.tsx
-│   ├── ProjectCard.tsx
-│   ├── ProjectGrid.tsx
-│   ├── ProjectFilters.tsx
-│   └── Footer.tsx
-├── data/
-│   └── projects.ts        ← Datos de todos los proyectos
-├── types/
-│   └── project.ts
-├── lib/
-│   └── utils.ts
-├── App.tsx
-├── main.tsx
-└── index.css
-```
-
-## 🛠️ Tecnologías
-
-- React 19
-- TypeScript
-- Vite
-- Tailwind CSS v4
-- Framer Motion
-- Lucide React
-- gh-pages
-
-## 📄 Licencia
-
-MIT — Paulo Daniel Batuani Hurtado
+La base Vite es `/portafolio-codepdbh/`. El CV se conserva en `public/`.

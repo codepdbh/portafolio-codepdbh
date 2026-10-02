@@ -8,8 +8,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh workflow run pages.yml",
+    "sync:github": "node scripts/sync-github.mjs"
   },
   "dependencies": {
     "framer-motion": "^12.38.0",
